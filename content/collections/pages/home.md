@@ -2,8 +2,8 @@
 id: home
 blueprint: page
 title: Home
-updated_by: ceaa75bd-bc37-4a8b-b0f2-b7af70e58b0e
-updated_at: 1693487994
+updated_by: b35c3476-b862-4c46-b635-8429572dfcdd
+updated_at: 1729885997
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -20,37 +20,39 @@ page_builder:
         content:
           -
             type: text
-            text: 'Start out on top'
+            text: 'Okanagan Bikepacking Collective'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Peak is your personal bespoke development sherpa. Start every project with this kit full of development goodies. '
+            text: 'The OBC is a grassroots collective of cyclists that enjoy exploring the roads and trails of the Okanagan (and beyond). It’s a place for riders to plan rides, and share stories, whether its a short one-hour ride or a multi-day adventure.'
       -
         type: paragraph
         content:
           -
             type: text
-            text: "But beware, this kit ain't here to be pretty. There are some examples of what Peak can do, but the rest is up to you. "
+            text: 'More to come!'
       -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Get climbing!'
+        type: set
+        attrs:
+          id: m2p5fgrq
+          values:
+            type: image
+            image: okbikecollective.jpg
+            size: md
     type: article
     enabled: true
   -
     id: eFlcYHyl
-    title: Features
+    title: Trips
     type: cards
     enabled: true
     cards:
       -
         id: lly5m22j
-        title: 'Check out a form'
-        text: "Peak renders forms and mail templates dynamically so you can add as many forms as you'd like, just by creating them in the CP. Peak ships with a default basic contact form you can edit."
+        title: 'Past Trips'
+        text: 'To come'
         label: 'Send a form'
         link_type: entry
         target_blank: false
@@ -61,15 +63,15 @@ page_builder:
         button:
           -
             id: llz6sh4t
-            label: 'Send a form'
+            label: View
             link_type: entry
             target_blank: false
             entry: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
             button_type: inline
       -
         id: lly5mxh7
-        title: 'Long form content'
-        text: 'For long form content you can use the Article content block. This is a Bard fieldtypeopen in new window with multiple sets of fields that are regularly used in longer articles.'
+        title: 'Future Trips'
+        text: 'Coming soon...'
         label: 'Read an article'
         link_type: entry
         target_blank: false
@@ -80,28 +82,9 @@ page_builder:
         button:
           -
             id: llz6svox
-            label: 'Read an article'
+            label: View
             link_type: entry
             target_blank: false
             entry: 20f6a148-63b8-47a8-9b0e-d57095d78c21
-            button_type: inline
-      -
-        id: lly5nvk4
-        title: 'Way more features'
-        text: 'Professional SEO, social image generation, responsive assets, appearance globals, favicons generation, search templates, dark mode support with toggle, pagination template, search and additional bottles of oxygen.'
-        label: 'Climb the docs'
-        link_type: url
-        target_blank: true
-        url: 'https://peak.1902.studio'
-        button_type: inline
-        type: card
-        enabled: true
-        button:
-          -
-            id: llz6t5ao
-            label: 'Read the docs'
-            link_type: url
-            target_blank: true
-            url: 'https://peak.1902.studio'
             button_type: inline
 ---
