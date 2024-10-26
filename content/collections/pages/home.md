@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: b35c3476-b862-4c46-b635-8429572dfcdd
-updated_at: 1729885997
+updated_at: 1729904262
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -41,6 +41,20 @@ page_builder:
             type: image
             image: okbikecollective.jpg
             size: md
+      -
+        type: set
+        attrs:
+          id: m2pgbgln
+          values:
+            type: buttons
+            buttons:
+              -
+                id: m2pgbid2
+                label: 'Email us'
+                link_type: email
+                target_blank: false
+                email: daryl@getoutside.ca
+                button_type: button
     type: article
     enabled: true
   -
